@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prankster</title>
+	<link rel="stylesheet" type="text/css" href="style/Prankster.css">
+	<style type="text/css">
+		body, html {
+			margin: 0;
+			text-align: center;
+		}
+		div#block {
+			width: 200px;
+			height: 100px;
+			display: inline-block;
+			margin-top: 200px;
+			background: #999;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="block"></div>
+	<div id="block"></div>
+	<div id="block"></div>
+	<div id="block"></div>
+	<div id="block"></div>
+	<div id="block"></div>
+
+	<script type="text/javascript" src='script/jQuery.js'></script>
+	<script type="text/javascript" src='script/Prankster.js'></script>
+	<script type="text/javascript">
+		new Prankster({
+			images: MEMES
+		});
+	</script>
+</body>
+</html>

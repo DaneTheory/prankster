@@ -1,0 +1,45 @@
+.alert {
+	display: block;
+	width: 300px;
+	height: auto;
+	padding: 2em;
+
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+
+	-webkit-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	transition: all 200ms linear;
+
+	display: none;
+}
+
+.alert.bad {
+	background: rgba(200, 50, 60, .6);
+	border-left: 20px solid rgba(220, 40, 50, .9);
+	color: #FFF;
+}
+
+.Prankster_image {
+	position: absolute;
+	display: inline-block;
+	z-index: -1;
+	overflow: hidden;
+
+
+	-webkit-transition: top 200ms linear, opacity 300ms linear;
+	-o-transition: top 200ms linear, opacity 300ms linear;
+	-ms-transition: top 200ms linear, opacity 300ms linear;
+	transition: top 200ms linear, opacity 300ms linear;
+}
+
+.selected_prank_div {
+	z-index: 10;
+}
+
